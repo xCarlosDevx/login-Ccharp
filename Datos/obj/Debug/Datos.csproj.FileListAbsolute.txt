@@ -1,0 +1,6 @@
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Datos\bin\Debug\Datos.dll
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Datos\bin\Debug\Datos.pdb
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Datos\obj\Debug\Datos.dll
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Datos\obj\Debug\Datos.pdb

@@ -1,0 +1,9 @@
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Negocios\bin\Debug\Negocios.dll
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Negocios\bin\Debug\Datos.dll
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Negocios\bin\Debug\Datos.pdb
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Negocios\obj\Debug\Negocios.dll
+C:\Users\Carlos Alejandro\source\repos\Crud-login-MultiCapas\Negocios\obj\Debug\Negocios.pdb

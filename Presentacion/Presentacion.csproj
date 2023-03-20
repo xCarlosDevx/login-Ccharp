@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23C1954E-4ED1-48FC-BA9F-5DBAF61A8D8E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="createPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="createPanel.Designer.cs">
+      <DependentUpon>createPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crudPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crudPanel.Designer.cs">
+      <DependentUpon>crudPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="P_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P_Usuario.Designer.cs">
+      <DependentUpon>P_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="readPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="readPanel.Designer.cs">
+      <DependentUpon>readPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registerPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registerPanel.Designer.cs">
+      <DependentUpon>registerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updatePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updatePanel.Designer.cs">
+      <DependentUpon>updatePanel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="createPanel.resx">
+      <DependentUpon>createPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crudPanel.resx">
+      <DependentUpon>crudPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="P_Usuario.resx">
+      <DependentUpon>P_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="readPanel.resx">
+      <DependentUpon>readPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registerPanel.resx">
+      <DependentUpon>registerPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updatePanel.resx">
+      <DependentUpon>updatePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Negocios\Negocios.csproj">
+      <Project>{8a162263-4ca2-47a5-9eba-0c3e74184b9d}</Project>
+      <Name>Negocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
